@@ -22,4 +22,5 @@ If you miss the Terminal-style experience of the previous extension, don’t wor
 
 ## Docs
 
-See our [documentation](https://code.claude.com/docs/en/vs-code) for more information on using the VS Code extension.
+See our [documentation](https://code.claude.com/docs/en/vs-code) for more information on using the VS Code extension.- `scripts/patch-reset-time.js`: **the fix for 2.1.280.** `node scripts/patch-reset-time.js <extension folder>/webview/index.js` makes the reset countdown show "in 1h 59m" instead of "in 1h". Backs up to `index.js.bak`; refuses to run if the code doesn't match exactly.
+- `BUG_REPORT.md`: draft issue for https://github.com/anthropics/claude-code/issues
